@@ -1,0 +1,22 @@
+{
+  "name": "sd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generation_grpc_pb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./generation_grpc_pb.d.ts",
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "@improbable-eng/grpc-web-node-http-transport": "^0.15.0",
+    "fs": "^0.0.1-security",
+    "google-protobuf": "^3.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "dotenv": "^16.0.3"
+  }
+}
