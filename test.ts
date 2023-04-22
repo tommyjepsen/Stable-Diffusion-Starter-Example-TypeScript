@@ -19,7 +19,7 @@ metadata.set("Authorization", "Bearer " + process.env.API_KEY);
 
 const client = new GenerationServiceClient("https://grpc.stability.ai", {});
 
-const request = buildGenerationRequest("stable-diffusion-512-v2-1", {
+const request = buildGenerationRequest("stable-diffusion-xl-beta-v2-2-2", {
   type: "text-to-image",
   prompts: [
     {
